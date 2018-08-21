@@ -1,0 +1,7 @@
+<?php 
+
+	//ativando menu dinamico
+	function register_my_menu() {
+		register_nav_menu ('header-menu' => __('menu'));
+	}
+	add_action('init', 'register_my_menu');

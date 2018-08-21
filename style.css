@@ -1,0 +1,109 @@
+/*
+Theme Name: matheus_teste
+Theme URI: 
+Description: Site para o teste proposto para a vaga de front-end dev.
+Author: Matheus Brehm Barni
+Author URI:https: //www.linkedin.com/in/matheus-brehm-barni-1418a3166/
+Version: 1.0
+*/
+html {
+	background: black;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+	font: white;
+}
+
+/*DIV HEADER*/
+.header {
+	height: 600px;
+	background: url('assets/images/fundo.png') center top;
+	padding: 10px 0;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.header h1 a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.header .info {
+	margin: 0 auto;
+	width: 540px;
+	padding-top: 100px;
+}
+
+.header .info h2 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.header .info p {
+	color: #fff;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.custom-button {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: black;
+	color: #fff;
+	border-radius: 30px;
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+}
+
+/*DIV WRAP-CENTER*/
+.wrap-center {
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+/*DIV pg-HOME*/
+.pg-home { 
+	padding: 10px 0;
+	color: white;
+}
+
+.pg-home h2 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+
+
+/*NAV-BAR*/
+.nav-link a {
+	color: white;
+	text-decoration: none;
+	display: inline;
+}
+
+.nav-link a:hover {
+	text-decoration: underline;
+}
+
+.header-pg {
+	background: orange;
+	padding-top: 0;
+}
+
+.nav-link ul li {
+	list-style: none;
+	display: inline;
+	margin: 50px;
+}
+
